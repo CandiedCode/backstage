@@ -56,25 +56,27 @@
   dependencies:
     tslib "~2.0.1"
 
-"@asyncapi/avro-schema-parser@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/@asyncapi/avro-schema-parser/-/avro-schema-parser-0.3.0.tgz#6922acc559ef999c57e81297d78ffe680fc92b3c"
-  integrity sha512-gWAqS2CKxbChdX8hZY+5EYQl6atP8FTSBvoG5mGGQ89XUoNdlLX14lsvbgvBnDj5sSwqfs+b5Mh5PUZMR/8maA==
+"@asyncapi/avro-schema-parser@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@asyncapi/avro-schema-parser/-/avro-schema-parser-1.1.0.tgz#5d0491b53331f0748d8f6e8c33781c27cafe0f30"
+  integrity sha512-7J7pzSw0/jF2bXy/Mf+80VKJfXRRfyLTJz413MkKLbLXbbz9rV4sVpYfp31ofqXgyZ9bhfmHJzunbi0Bt7Jcww==
+  dependencies:
+    avsc "^5.7.3"
 
-"@asyncapi/openapi-schema-parser@^2.0.0":
+"@asyncapi/openapi-schema-parser@^2.0.1":
   version "2.0.1"
   resolved "https://registry.npmjs.org/@asyncapi/openapi-schema-parser/-/openapi-schema-parser-2.0.1.tgz#4d6e82cced907b14e0ad6f98261ff2562d968d96"
   integrity sha512-algbtdM1gcAOa8+V8kp7WeBhdaNac82jmZUXx8YjyNfRVo02N2juDrjeBAGJd+FNva9Mb4MM7qfkJoAFpTL5VQ==
   dependencies:
     "@openapi-contrib/openapi-schema-to-json-schema" "^3.0.0"
 
-"@asyncapi/parser@^1.13.0":
-  version "1.13.0"
-  resolved "https://registry.npmjs.org/@asyncapi/parser/-/parser-1.13.0.tgz#bc20d53ba870ead9d26d5a4e3a838c5765ba8d4c"
-  integrity sha512-UnTYSjx2Sc+VKWIIeIV5I+ogFbN5iWzNgx1UgTXQ5oPhtNlsdIkF+w7qV8GyiraaKbBqAuwepv4xbBvlEi8hkw==
+"@asyncapi/parser@^1.18.0":
+  version "1.18.0"
+  resolved "https://registry.npmjs.org/@asyncapi/parser/-/parser-1.18.0.tgz#973fdc4581f9588511bfd2b5c126c6018892cf96"
+  integrity sha512-FbcYjXNhBBAnDVHUR87MLtCtnTim7DzLq04y3D3wHQEVhITGqROxslbEDqnLEpssqJl/aBCsW21CGocDJT/q4g==
   dependencies:
     "@apidevtools/json-schema-ref-parser" "^9.0.6"
-    "@asyncapi/specs" "^2.11.0"
+    "@asyncapi/specs" "^4.1.0"
     "@fmvilas/pseudo-yaml-ast" "^0.3.1"
     ajv "^6.10.1"
     js-yaml "^3.13.1"
@@ -83,24 +85,26 @@
     node-fetch "^2.6.0"
     tiny-merge-patch "^0.1.2"
 
-"@asyncapi/react-component@1.0.0-next.32":
-  version "1.0.0-next.32"
-  resolved "https://registry.npmjs.org/@asyncapi/react-component/-/react-component-1.0.0-next.32.tgz#ccb99466b1b6cfd3e789cf3cead5e35ba26b5687"
-  integrity sha512-hUmLc8YCEhLsBdO+w3eoqFTtR0IZN3isNvgy7xL1WuYBXHNkB9DAhB7mnogLFUmcuLH6xAQnC/Li6CKtgIxaGw==
+"@asyncapi/react-component@1.0.0-next.47":
+  version "1.0.0-next.47"
+  resolved "https://registry.npmjs.org/@asyncapi/react-component/-/react-component-1.0.0-next.47.tgz#1c81945232defc16053f8057cc42c4a89cbb1cce"
+  integrity sha512-zVktJkXEwDFAcI3gyN33QyC+e7l2g+yHt6vbht5xCMniH1PqkPvQczDUwEfY47lpHAJn7YYGMT4XpiipzIPtlw==
   dependencies:
-    "@asyncapi/avro-schema-parser" "^0.3.0"
-    "@asyncapi/openapi-schema-parser" "^2.0.0"
-    "@asyncapi/parser" "^1.13.0"
+    "@asyncapi/avro-schema-parser" "^1.1.0"
+    "@asyncapi/openapi-schema-parser" "^2.0.1"
+    "@asyncapi/parser" "^1.18.0"
     highlight.js "^10.7.2"
     isomorphic-dompurify "^0.13.0"
-    marked "^4.0.10"
-    openapi-sampler "^1.1.0"
-    use-resize-observer "^7.0.0"
+    marked "^4.0.14"
+    openapi-sampler "^1.2.1"
+    use-resize-observer "^8.0.0"
 
-"@asyncapi/specs@^2.11.0":
-  version "2.12.0"
-  resolved "https://registry.npmjs.org/@asyncapi/specs/-/specs-2.12.0.tgz#15534ca9e518b561d33edfdfdbb234f9b274f261"
-  integrity sha512-X4Xkrl+9WXSk5EJhsueIxNx6ymHI5wpkw4ofetV+VRnPLNob/XO4trPSJClrL5hlknxbGADLvlrkI5d3XJ996g==
+"@asyncapi/specs@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/@asyncapi/specs/-/specs-4.1.0.tgz#9b4b5698bd91532338569cc8b4451faa6e422320"
+  integrity sha512-2arh2J4vGUkgx7Y8zB2UMdYpgYiL4P+Te1Na5Yi9IEDe6UBVwOGFYK8MR7HZ0/oInHQFygpuouAjHnIifoZykg==
+  dependencies:
+    "@types/json-schema" "^7.0.11"
 
 "@azure/abort-controller@^1.0.0":
   version "1.0.2"
@@ -5821,6 +5825,11 @@
   resolved "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.9.tgz#97edc9037ea0c38585320b28964dde3b39e4660d"
   integrity sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==
 
+"@types/json-schema@^7.0.11":
+  version "7.0.11"
+  resolved "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
+  integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
+
 "@types/json-stable-stringify@^1.0.32":
   version "1.0.32"
   resolved "https://registry.npmjs.org/@types/json-stable-stringify/-/json-stable-stringify-1.0.32.tgz#121f6917c4389db3923640b2e68de5fa64dda88e"
@@ -7596,6 +7605,11 @@ available-typed-arrays@^1.0.2:
   integrity sha512-XWX3OX8Onv97LMk/ftVyBibpGwY5a8SmuxZPzeOxqmuEqUCOM9ZE+uIaD1VNJ5QnvU2UQusvmKbuM1FR8QWGfQ==
   dependencies:
     array-filter "^1.0.0"
+
+avsc@^5.7.3:
+  version "5.7.7"
+  resolved "https://registry.npmjs.org/avsc/-/avsc-5.7.7.tgz#8d1b5fd85904cc96a1e439450633ff33f4aff57b"
+  integrity sha512-9cYNccliXZDByFsFliVwk5GvTq058Fj513CiR4E60ndDwmuXzTJEp/Bp8FyuRmGyYupLjHLs+JA9/CBoVS4/NQ==
 
 aws-sdk-mock@^5.2.1:
   version "5.2.1"
@@ -13427,12 +13441,7 @@ hexoid@1.0.0:
   resolved "https://registry.npmjs.org/hexoid/-/hexoid-1.0.0.tgz#ad10c6573fb907de23d9ec63a711267d9dc9bc18"
   integrity sha512-QFLV0taWQOZtvIRIAdBChesmogZrtuXvVWsFHZTk2SU+anspqZ2vMnoLg7IE1+Uk16N19APic1BuF8bC8c2m5g==
 
-highlight.js@^10.1.0, highlight.js@^10.4.1, highlight.js@^10.6.0:
-  version "10.7.2"
-  resolved "https://registry.npmjs.org/highlight.js/-/highlight.js-10.7.2.tgz#89319b861edc66c48854ed1e6da21ea89f847360"
-  integrity sha512-oFLl873u4usRM9K63j4ME9u3etNF0PLiJhSQ8rdfuL51Wn3zkD6drf9ZW0dOzjnZI22YYG24z30JcmfCZjMgYg==
-
-highlight.js@^10.7.2, highlight.js@~10.7.0:
+highlight.js@^10.1.0, highlight.js@^10.4.1, highlight.js@^10.6.0, highlight.js@^10.7.2, highlight.js@~10.7.0:
   version "10.7.3"
   resolved "https://registry.npmjs.org/highlight.js/-/highlight.js-10.7.3.tgz#697272e3991356e40c3cac566a74eef681756531"
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
@@ -15476,10 +15485,10 @@ json-parse-even-better-errors@^2.3.0, json-parse-even-better-errors@^2.3.1:
   resolved "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz#7c47805a94319928e05777405dc12e1f7a4ee02d"
   integrity sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==
 
-json-pointer@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/json-pointer/-/json-pointer-0.6.1.tgz#3c6caa6ac139e2599f5a1659d39852154015054d"
-  integrity sha512-3OvjqKdCBvH41DLpV4iSt6v2XhZXV1bPB4OROuknvUXI7ZQNofieCPkmE26stEJ9zdQuvIxDHCuYhfgxFAAs+Q==
+json-pointer@0.6.2:
+  version "0.6.2"
+  resolved "https://registry.npmjs.org/json-pointer/-/json-pointer-0.6.2.tgz#f97bd7550be5e9ea901f8c9264c9d436a22a93cd"
+  integrity sha512-vLWcKbOaXlO+jvRy4qNd+TI1QUPZzfJj1tpJ3vAXDych5XJf93ftpUKe5pKCrzyIIwgBJcOcCVRUfqQP25afBw==
   dependencies:
     foreach "^2.0.4"
 
@@ -16748,10 +16757,10 @@ markdown-table@^3.0.0:
   resolved "https://registry.npmjs.org/markdown-table/-/markdown-table-3.0.1.tgz#88c48957aaf2a8014ccb2ba026776a1d736fe3dc"
   integrity sha512-CBbaYXKSGnE1uLRpKA1SWgIRb2PQrpkllNWpZtZe6VojOJ4ysqiq7/2glYcmKsOYN09QgH/HEBX5hIshAeiK6A==
 
-marked@^4.0.10:
-  version "4.0.10"
-  resolved "https://registry.npmjs.org/marked/-/marked-4.0.10.tgz#423e295385cc0c3a70fa495e0df68b007b879423"
-  integrity sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw==
+marked@^4.0.14:
+  version "4.2.12"
+  resolved "https://registry.npmjs.org/marked/-/marked-4.2.12.tgz#d69a64e21d71b06250da995dcd065c11083bebb5"
+  integrity sha512-yr8hSKa3Fv4D3jdZmtMMPghgVt6TWbk86WQaWhDloQjRSQhMMYCAro7jP7VDJrjjdV8pxVxMssXS8B8Y5DZ5aw==
 
 material-ui-search-bar@^1.0.0:
   version "1.0.0"
@@ -18493,13 +18502,13 @@ open@^8.0.0, open@^8.0.9, open@^8.4.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-openapi-sampler@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/openapi-sampler/-/openapi-sampler-1.1.1.tgz#7bba7000a03cd8a4630bfbe5b3ef258990c78400"
-  integrity sha512-WAFsl5SPYuhQwaMTDFOcKhnEY1G1rmamrMiPmJdqwfl1lr81g63/befcsN9BNi0w5/R0L+hfcUj13PANEBeLgg==
+openapi-sampler@^1.2.1:
+  version "1.3.1"
+  resolved "https://registry.npmjs.org/openapi-sampler/-/openapi-sampler-1.3.1.tgz#eebb2a1048f830cc277398bc8022b415f887e859"
+  integrity sha512-Ert9mvc2tLPmmInwSyGZS+v4Ogu9/YoZuq9oP3EdUklg2cad6+IGndP9yqJJwbgdXwZibiq5fpv6vYujchdJFg==
   dependencies:
     "@types/json-schema" "^7.0.7"
-    json-pointer "^0.6.1"
+    json-pointer "0.6.2"
 
 openid-client@^4.1.1, openid-client@^4.2.1:
   version "4.9.0"
@@ -24249,10 +24258,10 @@ use-memo-one@^1.1.1:
   resolved "https://registry.npmjs.org/use-memo-one/-/use-memo-one-1.1.1.tgz#39e6f08fe27e422a7d7b234b5f9056af313bd22c"
   integrity sha512-oFfsyun+bP7RX8X2AskHNTxu+R3QdE/RC5IefMbqptmACAA/gfol1KDD5KRzPsGMa62sWxGZw+Ui43u6x4ddoQ==
 
-use-resize-observer@^7.0.0:
-  version "7.1.0"
-  resolved "https://registry.npmjs.org/use-resize-observer/-/use-resize-observer-7.1.0.tgz#709ea7540fbe0a60ceae41ee2bef933d7782e4d4"
-  integrity sha512-6DGWOnZpjAGP/MtslGg7OunZptyueQduMi0i8DC5nVKXtJ8Bdt0wR/1tSxugFRndzYCi/jtD+SlNs5PK8ijvXQ==
+use-resize-observer@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.npmjs.org/use-resize-observer/-/use-resize-observer-8.0.0.tgz#69bd80c1ddd94f3758563fe107efb25fed85067a"
+  integrity sha512-n0iKSeiQpJCyaFh5JA0qsVLBIovsF4EIIR1G6XiBwKJN66ZrD4Oj62bjcuTAATPKiSp6an/2UZZxCf/67fk3sQ==
   dependencies:
     "@juggle/resize-observer" "^3.3.1"
 
